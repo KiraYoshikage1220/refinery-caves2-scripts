@@ -2,7 +2,7 @@ local ORE_FOLDER_NAME = "Ores"
 local CHECK_INTERVAL = 1
 local ESP_COLOR = Color3.fromRGB(255, 0, 0)
 local TEXT_COLOR = Color3.fromRGB(255, 255, 255) 
-local TEXT_SIZE = 18 -- Размер текста
+local TEXT_SIZE = 18 
 local TEXT_OFFSET = Vector3.new(0, 3, 0) 
 
 local oresFolder = game.Workspace:FindFirstChild("WorldSpawn")
@@ -100,4 +100,5 @@ function removeAllESP()
     table.clear(processedOres)
     print("all ess on")
 end
+
 print("esp for ores on")
